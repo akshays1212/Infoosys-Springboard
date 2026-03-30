@@ -7,6 +7,7 @@ name = "ai-email-classifier"
 version = "1.0.0"
 description = "AI-powered smart email classifier for enterprises"
 requires-python = ">=3.11"
+package-mode = false
 dependencies = [
     "fastapi>=0.108.0",
     "uvicorn[standard]>=0.27.0",
